@@ -51,10 +51,10 @@
     <h3>Stream {stream.id}</h3>
     <p>Sender: {stream.sender}</p>
     <p>Recipient: {stream.recipient}</p>
-    <p>Total Deposit: {stream.deposit} {stream.isNative ? 'ETH' : 'USDE'}</p>
+    <p>Total Deposit: {stream.deposit} {stream.isNative ? 'cBTC' : 'cUSDC'}</p>
     <p>Start Time: {formatDistanceToNow(stream.startTime, { addSuffix: true })}</p>
     <p>End Time: {formatDistanceToNow(stream.stopTime, { addSuffix: true })}</p>
-    <p>Current Balance: {currentBalance.toFixed(6)} {stream.isNative ? 'ETH' : 'USDE'}</p>
+    <p>Current Balance: {currentBalance.toFixed(6)} {stream.isNative ? 'cBTC' : 'cUSDC'}</p>
     {#if isRecipient}
       <button on:click={handleWithdraw}>Withdraw</button>
     {:else}
