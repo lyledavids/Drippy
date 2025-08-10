@@ -1,0 +1,13 @@
+// Configuration constants for Drippy
+export const CONFIG = {
+  // Replace this with your actual deployed contract address
+  CONTRACT_ADDRESS: "0x8507bFBB94499baA164df9f283188F4dd7Ac39aF",
+
+  // Replace this with your actual Pinata JWT token
+  PINATA_JWT:
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mb3JtYXRpb24iOnsiaWQiOiJhMWM1M2UzMS04ZTc1LTQwNjItYWY4Ni0yMzhhMmRkODA5ZjEiLCJlbWFpbCI6Imx5bGVkc2FAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsInBpbl9wb2xpY3kiOnsicmVnaW9ucyI6W3siZGVzaXJlZFJlcGxpY2F0aW9uQ291bnQiOjEsImlkIjoiRlJBMSJ9LHsiZGVzaXJlZFJlcGxpY2F0aW9uQ291bnQiOjEsImlkIjoiTllDMSJ9XSwidmVyc2lvbiI6MX0sIm1mYV9lbmFibGVkIjpmYWxzZSwic3RhdHVzIjoiQUNUSVZFIn0sImF1dGhlbnRpY2F0aW9uVHlwZSI6InNjb3BlZEtleSIsInNjb3BlZEtleUtleSI6Ijg2MDkxZDVkMDRiMmRkNWQwZGYyIiwic2NvcGVkS2V5U2VjcmV0IjoiMTViMmM0ZDNmMjAzYzVlNDg0OWI0NzVlOTM2NzA2ZmQ4N2IwNGEwYjNjNWJkYTFkYzA3MDcwNjZiOTljZmY3YyIsImV4cCI6MTc4NjM3MTgxM30.Efz35ST1G727xK16azx3UmAGptvSofjYm6NbF6ptC4U",
+
+  // Network configuration (optional)
+  NETWORK_NAME: "Citrea",
+  CHAIN_ID: 5115,
+}
